@@ -25,7 +25,7 @@ var twoFactor = require('node-2fa');
 var newSecret = twoFactor.generateSecret({name: 'My Awesome App', account: 'johndoe'});
 /*
 { secret: 'XDQXYCP5AC6FA32FQXDGJSPBIDYNKK5W',
-  uri: 'otpauth://totp/My Awesome App:johndoe%3Fsecret=XDQXYCP5AC6FA32FQXDGJSPBIDYNKK5W',
+  uri: 'otpauth://totp/My Awesome App:johndoe?secret=XDQXYCP5AC6FA32FQXDGJSPBIDYNKK5W',
   qr: 'https://chart.googleapis.com/chart?chs=166x166&chld=L|0&cht=qr&chl=otpauth://totp/My Awesome App:johndoe%3Fsecret=XDQXYCP5AC6FA32FQXDGJSPBIDYNKK5W' 
 }
 */
